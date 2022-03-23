@@ -1,0 +1,4 @@
+[
+    { "caption": "Markdown Format: Format File", "command": "mdformat" },
+    { "caption": "Markdown Format: Set Path", "command": "mdformat_set_path" }
+]

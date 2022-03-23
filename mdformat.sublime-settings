@@ -1,0 +1,38 @@
+{
+    // This is the path to the binary for mdformat. If it is in your path,
+    // it should just work out-of-the-box. Otherwise, you can set the full path,
+    // which will look like this: 
+    //    "binary": "/path/to/mdformat"
+    // Note that you can set this from within ST directly through the Command
+    // Palette. 
+
+    "binary": "mdformat",
+
+    // Setting this to true will run the formatter on every save. If you want to
+    // only enable this for a given project, try checking out the package
+    // "Project-Specific".
+
+    "format_on_save": false,
+
+    // The below custom setup will be used if this is set to "custom"
+    // If it's set to "file" then it will attempt to automatically detected
+    // configuration files .mdformat.toml
+
+    "style": "custom",
+
+    // --------------------------
+    // General Formatting Options
+    // --------------------------
+
+    // paragraph word wrap mode
+    // possible values: {"keep", "no", INTEGER}
+    "wrap": "keep",
+
+    // apply consecutive numbering to ordered lists
+    // possible values: {false, true}
+    "number": false,
+
+    // output file line ending mode
+    // possible values: {"lf", "crlf"}
+    "end_of_line": "lf"
+}
