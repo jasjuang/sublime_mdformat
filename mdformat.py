@@ -187,9 +187,9 @@ class MdformatCommand(sublime_plugin.TextCommand):
         if os_is_windows:
             startupinfo = subprocess.STARTUPINFO()
             startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
-        p = subprocess.Popen(command, stdout=subprocess.PIPE,
-                             stderr=subprocess.PIPE, stdin=subprocess.PIPE,
-                             startupinfo=startupinfo)
+        subprocess.Popen(command, stdout=subprocess.PIPE,
+                         stderr=subprocess.PIPE, stdin=subprocess.PIPE,
+                         startupinfo=startupinfo)
 
 
 class MdformatEventListener(sublime_plugin.EventListener):
