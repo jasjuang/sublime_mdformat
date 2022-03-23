@@ -1,6 +1,6 @@
 # Sublime Markdown Format
 
-[![Build Status](https://travis-ci.com/jasjuang/sublime_mdformat.svg?branch=main)](https://travis-ci.com/jasjuang/sublime_mdformat)
+[![Build Status](https://app.travis-ci.com/jasjuang/sublime_mdformat.svg?branch=main)](https://app.travis-ci.com/jasjuang/sublime_mdformat)
 
 ## What it does
 
