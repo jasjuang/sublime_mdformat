@@ -6,7 +6,6 @@
             {
                 "caption": "Package Settings",
                 "id": "package-settings",
-                "mnemonic": "P",
                 "children":
                 [
                     {
@@ -14,18 +13,13 @@
                         "children":
                         [         
                             {
-                                "caption": "Settings – Default",
-                                "command": "open_file", "args":
+                                "args":
                                 {
-                                    "file": "${packages}/MarkdownFormat/mdformat.sublime-settings"
-                                }
-                            },
-                            {
-                                "caption": "Settings – User",
-                                "command": "open_file", "args":
-                                {
-                                    "file": "${packages}/User/mdformat.sublime-settings"
-                                }
+                                    "base_file": "${packages}/MarkdownFormat/mdformat.sublime-settings",
+                                    "default": "{\n$0\n}\n"
+                                },
+                                "caption": "Settings",
+                                "command": "edit_settings"
                             }
                         ]
                     }
